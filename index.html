@@ -24,17 +24,14 @@
     <div class="row">
         <div class="sidebar">
             <ul>
-                <li><a href="https://www.psychologytoday.com/us/basics/relationships"><b>About Us</b></a></li>
+                <li><a href="https://dictionary.cambridge.org/dictionary/english/content"><b>About Us</b></a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Falling_in_love">Our Story</a></li>
-                <li><a href=""></a></li>
-                <li><a href="https://icjs.us/the-positives-of-plushies-stuffed-animals-have-benefits-for-children-and-adults/"><b>Our kids</b></a></li>
+                <li><br><a href="https://icjs.us/the-positives-of-plushies-stuffed-animals-have-benefits-for-children-and-adults/"><b>Our kids</b></a></li>
                 <li><a href="https://www.lazada.com.ph/products/miniso-we-bare-bears-plush-toy-grizzly-i4073176420.html">Jhenry</a></li>
                 <li><a href="https://www.flipkart.com/miniso-bare-bears-lovely-sitting-plush-toy-ice-bear-30-cm/p/itm3fe54fe6b9a2e">Ash</a></li>
-                <li><a href="https://www.carousell.ph/p/we-bare-bears-plush-toy-with-outfit-by-miniso-1220516691/">Budoys</a></li>
-                <li><a href=""></a></li>
+                <li><a href="https://www.carousell.ph/p/we-bare-bears-plush-toy-with-outfit-by-miniso-1220516691/">Budoys</a><br></li>
                 <li><a href="https://lighthouse.mq.edu.au/article/august-2019/the-couple-song-phenomenon"><b>Our songs</b></a></li>
-                <li><a href="https://open.spotify.com/playlist/6XHNDoBVsbsVoIh40poWwP?si=0e7a446fc68849c0&pt=4d5f15d29380439dc18b5dfdee75c722">Spotify</a></li>
-                <li><a href=""></a></li>
+                <li><a href="https://open.spotify.com/playlist/6XHNDoBVsbsVoIh40poWwP?si=0e7a446fc68849c0&pt=4d5f15d29380439dc18b5dfdee75c722">Spotify</a><br></li>
                 <li><a href="https://www.pinterest.es/pin/16184879890017531/"><b>Contact Me</b></a></li>
                 <li><a href="https://www.pinterest.es/pin/1337074887493605/">Email</a></li>
             </ul>
@@ -51,8 +48,15 @@
         <div class="pic2">
             <img src="pic2.jpg" alt="Picture 2" class="move-mainpic">
         </div>
+        
+        <div class="content">
+            <div class="paragraph">
+                <p>Happy monthsary! <br> -your i.t. B)</p>
+            </div>
+        </div>
 
     </div>
+
 </body>
 </html>
 
@@ -117,7 +121,7 @@ header {
 }
 
 .sidebar {
-    width: 20%;
+    width: 12%;
 }
 
 .sidebar ul li a {
@@ -127,7 +131,6 @@ header {
     padding: 10px;
     margin: 5px 0;
     border-radius: 10px;
-    transition: 0.3s;
 }
 
 .sidebar ul li a:hover {
@@ -141,21 +144,54 @@ header {
 }
 
 .mainpicture img {
+    margin-left: 50px;
     margin-top: 20px;
-    width: 80%;
-    max-width: 400px;
-    border-radius: 20px;
+    width: 100%;
+    width: 500px;
+    border-radius: 50px;
 }
 
-.pic1, .pic2 {
+.pic1 {
+    flex: 1; 
+}
+
+.pic1 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.pic2 {
+    flex: 1; 
+}
+
+.pic2 img {
+    width: 180px;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+
+.content {
     flex: 1;
+    background-color: rgb(86, 101, 49);
+    padding: 20px;
+    color: white;
     text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 380px;
+    width: 80%;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 190px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.pic1 img, .pic2 img {
-    width: 80%;
-    max-width: 150px;
-    margin-top: 20px;
-    border-radius: 20px;
-}
 </style>
